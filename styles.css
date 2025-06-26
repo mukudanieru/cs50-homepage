@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "monospace", "IBM Plex Mono";
+  line-height: normal !important;
 }
 
 body {
@@ -57,6 +58,7 @@ div > * {
   font-weight: bold;
   font-family: "Space Mono";
   color: #cad2c5;
+  margin: 0;
 }
 
 .subtitle {
@@ -64,6 +66,7 @@ div > * {
   font-weight: 300;
   font-family: "Share Tech Mono";
   color: #84a98c;
+  margin: 0;
 }
 
 .text {
@@ -72,4 +75,5 @@ div > * {
   font-weight: 200;
   color: #fff;
   padding-top: 4px;
+  margin: 0;
 }
