@@ -7,6 +7,12 @@
     <title>mukudanieru</title>
 
     <style>
+      .content > div {
+        max-width: 568px;
+        margin: 0 auto;
+        width: 100%;
+      }
+
       #socials {
         display: flex;
         flex-direction: row;
@@ -21,23 +27,29 @@
         padding-top: 24px;
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 8px;
+        max-width: 600px;
       }
 
       #projects-list > .subtitle {
+        /* border: 1px solid white; */
         font-size: 22px;
-      }
-
-      #projects {
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
+        max-width: 568px;
+        margin: 0 auto;
+        width: 100%;
       }
 
       .project {
         display: flex;
         flex-direction: column;
         gap: 4px;
+        padding: 14px 16px;
+        border-radius: 8px;
+      }
+
+      .project:hover {
+        background-color: rgba(202, 210, 197, 0.1);
+        cursor: pointer;
       }
     </style>
   </head>
@@ -47,7 +59,7 @@
         <a href="./blog.html" target="_blank" rel="noopener noreferrer">blog</a>
         <a href="./fun.html" target="_blank" rel="noopener noreferrer">fun</a>
       </div>
-      <h1 class="title">John Daniel C. Garan</h1>
+      <div class="title">John Daniel C. Garan</div>
       <div class="subtitle">computer scientist</div>
       <div class="text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -83,31 +95,29 @@
       </div>
       <div id="projects-list">
         <h2 class="subtitle">Projects</h2>
-        <div id="projects">
-          <div class="project">
-            <h3 class="subtitle">Project #1</h3>
-            <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit.
-            </p>
-          </div>
-          <div class="project">
-            <h3 class="subtitle">Project #2</h3>
-            <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit.
-            </p>
-          </div>
-          <div class="project">
-            <h3 class="subtitle">Project #3</h3>
-            <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit.
-            </p>
-          </div>
-          <div class="project">
-            <h3 class="subtitle">Project #4</h3>
-            <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit.
-            </p>
-          </div>
+        <div class="project">
+          <h3 class="subtitle">Project #1</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="project">
+          <h3 class="subtitle">Project #2</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="project">
+          <h3 class="subtitle">Project #3</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="project">
+          <h3 class="subtitle">Project #4</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </p>
         </div>
       </div>
     </div>
