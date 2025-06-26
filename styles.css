@@ -16,17 +16,25 @@ body {
   align-items: center;
   justify-content: flex-start;
   padding-top: 8vh;
+  padding-bottom: 8vh;
 }
 
-div {
+div > * {
   /* border: 1px solid white; */
 }
 
-a {
+.links {
   text-decoration: none;
   color: #fff;
   font-family: "Space Mono";
   font-size: 18px;
+  transition: all 0.2s ease;
+}
+
+.links:hover {
+  color: #cad2c5;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .content {

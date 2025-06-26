@@ -19,7 +19,7 @@
         gap: 24px;
       }
 
-      #socials > a {
+      #socials > .links {
         font-size: 14px;
       }
 
@@ -32,9 +32,9 @@
       }
 
       #projects-list > .subtitle {
-        /* border: 1px solid white; */
         font-size: 22px;
         max-width: 568px;
+        padding-bottom: 12px;
         margin: 0 auto;
         width: 100%;
       }
@@ -45,10 +45,12 @@
         gap: 4px;
         padding: 14px 16px;
         border-radius: 8px;
+        transition: all 0.3s ease;
       }
 
       .project:hover {
-        background-color: rgba(202, 210, 197, 0.1);
+        background-color: rgba(202, 210, 197, 0.2);
+        transform: scale(1.02);
         cursor: pointer;
       }
     </style>
@@ -56,8 +58,8 @@
   <body>
     <div class="content">
       <div class="nav">
-        <a href="./blog.html" target="_blank" rel="noopener noreferrer">blog</a>
-        <a href="./fun.html" target="_blank" rel="noopener noreferrer">fun</a>
+        <a class="links" href="./blog.html" rel="noopener noreferrer">blog</a>
+        <a class="links" href="./fun.html" rel="noopener noreferrer">fun</a>
       </div>
       <div class="title">John Daniel C. Garan</div>
       <div class="subtitle">computer scientist</div>
@@ -71,23 +73,23 @@
         mollit anim id est laborum.
       </div>
       <div id="socials">
-        <a href="https://x.com/" target="_blank" rel="noopener noreferrer"
+        <a class="links" href="https://x.com/" target="_blank" rel="noopener noreferrer"
           >twitter</a
         >
         <a
-          href="https://github.com/mukudanieru"
-          target="_blank"
+          class="links" href="https://github.com/mukudanieru"
+          target="_blan
           rel="noopener noreferrer"
           >github</a
         >
         <a
-          href="https://www.linkedin.com/"
+          class="links" href="https://www.linkedin.com/"
           target="_blank"
           rel="noopener noreferrer"
           >linkedin</a
         >
         <a
-          href="main.johndaniel.garan@cvsu.edu.ph"
+          class="links" href="main.johndaniel.garan@cvsu.edu.ph"
           target="_blank"
           rel="noopener noreferrer"
           >email</a
