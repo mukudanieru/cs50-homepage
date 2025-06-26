@@ -3,19 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>mukudanieru</title>
 
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+      #socials {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+      }
+
+      #socials > a {
+        font-size: 14px;
+      }
+
+      #projects-list {
+        padding-top: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      #projects-list > .subtitle {
+        font-size: 22px;
+      }
+
+      #projects {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+
+      .project {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+    </style>
   </head>
   <body>
-    <div id="content">
-      <div id="nav">
+    <div class="content">
+      <div class="nav">
         <a href="./blog.html" target="_blank" rel="noopener noreferrer">blog</a>
         <a href="./fun.html" target="_blank" rel="noopener noreferrer">fun</a>
       </div>
-      <h1 id="name">John Daniel C. Garan</h1>
-      <div id="about">computer scientist</div>
-      <div id="description">
+      <h1 class="title">John Daniel C. Garan</h1>
+      <div class="subtitle">computer scientist</div>
+      <div class="text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -46,6 +80,35 @@
           rel="noopener noreferrer"
           >email</a
         >
+      </div>
+      <div id="projects-list">
+        <h2 class="subtitle">Projects</h2>
+        <div id="projects">
+          <div class="project">
+            <h3 class="subtitle">Project #1</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="project">
+            <h3 class="subtitle">Project #2</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="project">
+            <h3 class="subtitle">Project #3</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="project">
+            <h3 class="subtitle">Project #4</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </body>

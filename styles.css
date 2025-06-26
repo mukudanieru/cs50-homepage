@@ -29,14 +29,7 @@ a {
   font-size: 18px;
 }
 
-#nav {
-  display: flex;
-  flex-direction: row;
-  gap: 25px;
-  justify-content: end;
-}
-
-#content {
+.content {
   border: 1px solid black;
   max-width: 569px;
   display: flex;
@@ -44,34 +37,31 @@ a {
   gap: 8px;
 }
 
-#name {
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: end;
+}
+
+.title {
   font-size: 28px;
   font-weight: bold;
   font-family: "Space Mono";
   color: #cad2c5;
 }
 
-#about {
+.subtitle {
   font-size: 16px;
   font-weight: 300;
   font-family: "Share Tech Mono";
   color: #84a98c;
 }
 
-#description {
+.text {
   text-align: justify;
   font-size: 14px;
   font-weight: 200;
   color: #fff;
   padding-top: 4px;
-}
-
-#socials {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-}
-
-#socials > a {
-  font-size: 14px;
 }
