@@ -75,6 +75,17 @@ div > * {
   margin: 0;
 }
 
+.meta {
+  display: flex;
+}
+
+.dot-icon {
+  color: #84a98c;
+  width: auto !important;
+  height: auto !important;
+  vertical-align: middle;
+}
+
 .text {
   text-align: justify;
   font-size: 14px;
