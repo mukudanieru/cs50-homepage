@@ -22,69 +22,18 @@
     ></script>
 
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>mukudanieru</title>
-
-    <style>
-      .content > div {
-        max-width: 568px;
-        margin: 0 auto;
-        width: 100%;
-      }
-
-      #socials {
-        display: flex;
-        flex-direction: row;
-        gap: 24px;
-      }
-
-      #socials > .links {
-        font-size: 14px;
-      }
-
-      #projects-list {
-        padding-top: 24px;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        max-width: 600px;
-        margin-bottom: 16px;
-      }
-
-      #projects-list > .subtitle {
-        font-size: 22px;
-        max-width: 568px;
-        padding-bottom: 12px;
-        margin: 0 auto;
-        width: 100%;
-      }
-
-      .project {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
-        padding: 14px 16px;
-        border-radius: 8px;
-        transition: all 0.3s ease;
-      }
-
-      .project:hover {
-        background-color: rgba(202, 210, 197, 0.2);
-        transform: scale(1.02);
-        cursor: pointer;
-      }
-
-      .alert {
-        padding: 2px;
-        color: black;
-        font-size: 12px;
-      }
-    </style>
   </head>
   <body>
     <div class="content">
       <div class="nav">
-        <a class="links" href="./blog.html" rel="noopener noreferrer">blog</a>
-        <a class="links" href="./fun.html" rel="noopener noreferrer">fun</a>
+        <a class="links" href="./blogs/blogs.html" rel="noopener noreferrer"
+          >blogs</a
+        >
+        <a class="links" href="./now/now.html" rel="noopener noreferrer"
+          >nownownow</a
+        >
       </div>
       <div class="title">John Daniel C. Garan</div>
       <div class="subtitle">computer scientist</div>
@@ -156,7 +105,16 @@
       </div>
 
       <div class="text alert alert-primary">
-        Feel free to explore my GitHub for more projects.
+        Feel free to explore my
+        <a
+          id="alert-hover"
+          class="alert"
+          href="https://github.com/mukudanieru"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+        for more projects.
       </div>
     </div>
   </body>

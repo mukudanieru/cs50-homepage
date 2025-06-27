@@ -1,0 +1,53 @@
+#socials {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+#socials > .links {
+  font-size: 14px;
+}
+
+#projects-list {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 600px;
+  margin-bottom: 16px;
+}
+
+#projects-list > .subtitle {
+  font-size: 22px;
+  max-width: 568px;
+  padding-bottom: 12px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.project:hover {
+  background-color: rgba(202, 210, 197, 0.2);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.alert {
+  padding: 2px;
+  color: black;
+  font-size: 12px;
+}
+
+#alert-hover:hover {
+  color: #84a98c;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
