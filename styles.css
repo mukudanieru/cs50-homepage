@@ -21,7 +21,7 @@ body {
 }
 
 div > * {
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .links {
@@ -39,7 +39,7 @@ div > * {
 }
 
 .content {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 600px;
   display: flex;
   flex-direction: column;
