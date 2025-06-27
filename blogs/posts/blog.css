@@ -1,0 +1,9 @@
+.nav {
+  justify-content: space-between;
+}
+
+p {
+  max-width: 568px !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+}
