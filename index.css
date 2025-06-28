@@ -9,12 +9,16 @@
 }
 
 #projects-list {
-  padding-top: 24px;
+  padding-top: 16px;
   display: flex;
   flex-direction: column;
   gap: 8px;
   max-width: 600px;
   margin-bottom: 16px;
+}
+
+#projects-list > a {
+  text-decoration: none;
 }
 
 #projects-list > .subtitle {
@@ -50,4 +54,8 @@
   color: #84a98c;
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+.bold {
+  font-weight: bold;
 }
