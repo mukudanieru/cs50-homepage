@@ -71,3 +71,16 @@
   transform: scale(1.02);
   cursor: pointer;
 }
+
+.hidden {
+  display: none;
+}
+
+.no-match {
+  width: 100% !important;
+  height: 466px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
