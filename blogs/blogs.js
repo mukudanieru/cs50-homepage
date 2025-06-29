@@ -6,7 +6,17 @@ const blogs = blogList.querySelectorAll(".blog");
 function clearSearch() {
   if (searchInput.value) {
     searchInput.value = "";
-    searchBlogs();
+
+    const existingNoMatchesMessage =
+      document.querySelector(".no-match-message");
+    if (existingNoMatchesMessage) {
+      blogList.classList.remove("no-match");
+      existingNoMatchesMessage.remove();
+    }
+
+    blogs.forEach((blog) => {
+      blog.classList.remove("hidden");
+    });
   }
 }
 
