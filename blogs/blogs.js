@@ -48,8 +48,6 @@ function searchBlogs() {
     }
   });
 
-  console.log(visibleCount);
-
   if (visibleCount === 0) {
     const noMatches = document.createElement("p");
     blogList.classList.add("no-match");

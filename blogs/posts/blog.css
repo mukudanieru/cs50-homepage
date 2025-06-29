@@ -7,3 +7,10 @@ p {
   margin: 0 auto !important;
   width: 100% !important;
 }
+
+@media (max-width: 640px) {
+  p {
+    max-width: calc(100% - 32px) !important;
+    margin: 0 auto;
+  }
+}
