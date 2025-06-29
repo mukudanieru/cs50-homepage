@@ -1,0 +1,51 @@
+HTML TAGS USED:
+- <link>
+- <div></div>
+- <a href=""></a>
+- <h2></h2>
+- <h3></h3>
+- <p></p>
+- <span></span>
+- <svg></svg>
+- <path>
+- <input>
+- <button></button>
+- <h1></h1>
+
+CSS PROPERTIES USED:
+- border
+- margin
+- box-sizing
+- font-family
+- line-height
+- background-color
+- min-height
+- display
+- flex-direction
+- align-items
+- justify-content
+- padding-top
+- padding-bottom
+- text-decoration
+- color
+- width
+- max-width
+- gap
+- font-size
+- font-weight
+- text-align
+- padding
+- border-radius
+- transition
+- transform
+- cursor
+- text-underline-offset
+- vertical-align
+- height
+- flex-wrap
+
+JavaScript:
+I used JavaScript to implement a search functionality in my blog list that filters visible blogs in real-time user input.
+
+Bootstrap:
+I used Bootstrap to utilize their alert component styling (alert alert-primary) for the GitHub info link, while customizing the padding through additional CSS to better fit my design aesthetic.

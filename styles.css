@@ -20,10 +20,6 @@ body {
   padding-bottom: 8vh;
 }
 
-div > * {
-  /* border: 1px solid white; */
-}
-
 .links {
   text-decoration: none;
   color: #fff;
